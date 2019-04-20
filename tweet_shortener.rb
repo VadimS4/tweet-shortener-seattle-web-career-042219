@@ -38,7 +38,8 @@ def selective_tweet_shortener(tweet)
 end
 
 def shortened_tweet_truncator(tweet)
-  tweet.split(" ").collect do |word|
+  tweet.split(" ").collect do |phrase|
+    
     
 end
 
