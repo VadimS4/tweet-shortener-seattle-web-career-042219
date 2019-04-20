@@ -39,7 +39,7 @@ end
 
 def shortened_tweet_truncator(tweet)
   tweet.split(" ").collect do |phrase|
-    
+    if phrase.length = 
     
 end
 
